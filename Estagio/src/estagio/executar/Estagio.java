@@ -23,7 +23,7 @@ public class Estagio extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/estagio/view/LoginFXML.fxml"));
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setTitle("Automatation System");
+        stage.setTitle("Restaurante Comboio");
         stage.setResizable(false);
         stage.show();
     }
